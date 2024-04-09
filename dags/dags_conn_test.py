@@ -1,5 +1,5 @@
 from airflow import DAG
-from airflow.operators.bash import EmptyOperator
+from airflow.operators.empty import EmptyOperator
 
 import datetime
 import pendulum

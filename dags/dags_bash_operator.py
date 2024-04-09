@@ -14,7 +14,6 @@ with DAG(
     # tags=["example", "example2"],
     # params={"example_key": "example_value"},
 ) as dag:
-    
 
     # [START howto_operator_bash]
     bash_t1 = BashOperator(

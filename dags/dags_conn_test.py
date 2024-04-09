@@ -5,7 +5,7 @@ import datetime
 import pendulum
 
 with DAG(
-    dag_id="dags)_conn)test",
+    dag_id="dags__conn_test",
     schedule=None,
     start_date=pendulum.datetime(2024, 4, 1, tz="Asia/Seoul"),
     catchup=False

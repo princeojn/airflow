@@ -45,7 +45,7 @@ class TistoryWritePostByChatgptOperator(BaseOperator):
                 market = 'KOSDAQ'
 
             set_tistory_post(access_token=tistory_access_token,
-                             blog_name='hjkim-sun',
+                             blog_name='prince92',
                              title=f'{yyyy}/{mm}/{dd} {hh}시 {market} 급등 {fluctuation_rate}% {ticker_name} 주목!',
                              content=chatgpt_resp,
                              tag_lst=[f'{market}급등','급등주',ticker_name])

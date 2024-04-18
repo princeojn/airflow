@@ -5,7 +5,7 @@ from operators.tistory_write_post_by_chatgpt_operator import TistoryWritePostByC
 
 with DAG(
     dag_id='dags_tistory_post_with_chatgpt',
-    start_date=pendulum.datetime(2023, 5, 1, tz='Asia/Seoul'),
+    start_date=pendulum.datetime(2024, 4, 1, tz='Asia/Seoul'),
     catchup=False,
     schedule='0 13 * * *',
 ) as dag:
